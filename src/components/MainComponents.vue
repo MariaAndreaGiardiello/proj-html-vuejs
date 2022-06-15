@@ -1,10 +1,16 @@
 <template>
-  <main></main>
+  <main>
+    <HeroNavbarVue/>
+  </main>
 </template>
 
 <script>
+import HeroNavbarVue from './sections/HeroNavbar.vue';
 export default {
-    name: 'MainComponents'
+    name: "MainComponents",
+    components: { 
+      HeroNavbarVue, 
+      }
 }
 </script>
 
