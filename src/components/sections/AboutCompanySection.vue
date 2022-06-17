@@ -29,7 +29,7 @@
             </div>
         </div>
         <div class="col-6">
-            <img class="img-fluid about-img" src="src/assets/img/hero-image.png" alt="">
+            <img class="img-fluid about-img" src="../../assets/img/about-3.jpg" alt="">
         </div>
     </div>
   </section>
