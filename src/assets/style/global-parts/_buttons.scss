@@ -1,0 +1,28 @@
+:root{
+    .green-button{
+        background-color: var(--secondary-color);
+        border: none;
+        border-radius: 5px;
+        padding: 5px 15px;
+        font-size: 14px;
+        color: white;
+    }
+
+    .transparent-button{
+        background-color: transparent;
+        border: 1px solid var(--secondary-color);
+        border-radius: 5px;
+        padding: 5px 15px;
+        font-size: 14px;
+        color: white;
+    }
+
+    .transparent-button:hover{
+        background-color: var(--secondary-color);
+        border: none;
+        border-radius: 5px;
+        padding: 5px 15px;
+        font-size: 14px;
+        color: white;
+    }
+}

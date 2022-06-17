@@ -1,16 +1,20 @@
 <template>
   <main>
-    <HeroNavbarVue/>
+    <HeroSection/>
+    <LightCardSection/>
   </main>
 </template>
 
 <script>
-import HeroNavbarVue from './sections/HeroNavbar.vue';
+import HeroSection from './sections/HeroSection.vue';
+import LightCardSection from './sections/LightCardSection.vue';
+undefined
 export default {
     name: "MainComponents",
-    components: { 
-      HeroNavbarVue, 
-      }
+    components: {
+    HeroSection,
+    LightCardSection,
+}
 }
 </script>
 

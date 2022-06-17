@@ -13,7 +13,14 @@ body{
         line-height: 40px;
     }
 
-    .navbar-text{
+    .text-color{
         color: var(--font-color);
+    }
+
+    .hero-title {
+        color: white;
+        font-weight: bold;
+        margin-top: 150px;
+        margin-bottom: 30px;
     }
 }
