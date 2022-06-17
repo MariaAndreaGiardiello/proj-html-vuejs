@@ -46,8 +46,7 @@ export default {
     border-radius: 100%;
     background-color: var(--circle-icon);
     margin-bottom: 15px;
-    opacity: 0.7
-    ;
+    opacity: 0.7;
 }
 
 .card-title{

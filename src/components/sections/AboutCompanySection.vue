@@ -4,32 +4,32 @@
         <div class="col-6 d-flex justify-content-end">
             <div class="col-8 about-text">
                 <div class="company">
-                    <h6>ABOUT THE NETWORK</h6>
-                    <h2><span>The</span> Company</h2>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum cupiditate delectus reiciendis rem omnis quidem unde aliquid enim dolores doloremque dolore autem tenetur quae perferendis, excepturi molestiae voluptates quo. Saepe.</p>
+                    <h6 class="about-network-text">ABOUT THE NETWORK</h6>
+                    <h2 class="about-bold"><span class="backgrounded-text">The</span> Company</h2>
+                    <p class="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum cupiditate delectus lorem lorem lorem lorem lorem lorem</p>
                 </div>
                 <div class="row">
                     <div class="col-6 tradition">
-                    <h5>Tradition</h5>
-                    <p>Lorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit amet  </p>
+                        <h5 class="d-flex about-bold"> <div class="mx-2 icon-circle align-items-center"></div> Tradition</h5>
+                        <p class="description">Lorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit amet  </p>
                     </div>
-                    <div class="col-6 certificate">
-                    <h5>Tradition</h5>
-                    <p>Lorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit amet  </p>
+                    <div class="col-6 tradition">
+                        <h5 class="d-flex about-bold"> <div class="mx-2 icon-circle align-items-center"></div> Tradition</h5>
+                        <p class="description">Lorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit amet  </p>
                     </div>
-                    <div class="col-6 certificate">
-                    <h5>Tradition</h5>
-                    <p>Lorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit amet  </p>
+                    <div class="col-6 tradition">
+                        <h5 class="d-flex about-bold"> <div class="mx-2 icon-circle align-items-center"></div> Tradition</h5>
+                        <p class="description">Lorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit amet  </p>
                     </div>
-                    <div class="col-6 certificate">
-                    <h5>Tradition</h5>
-                    <p>Lorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit amet  </p>
+                    <div class="col-6 tradition">
+                        <h5 class="d-flex about-bold"> <div class="mx-2 icon-circle align-items-center"></div> Tradition</h5>
+                        <p class="description">Lorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit amet  </p>
                     </div>
                 </div>
             </div>
         </div>
         <div class="col-6">
-            <img class="img-fluid about-img" src="src/assets/img/about-3.jpg" alt="">
+            <img class="img-fluid about-img" src="src/assets/img/hero-image.png" alt="">
         </div>
     </div>
   </section>
@@ -50,4 +50,44 @@ export default {
 .about-text{
     margin: 80px 0;
 }
+
+.about-network-text {
+    font-size: 12px;
+    color: var(--secondary-color);
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.backgrounded-text{
+    padding: 5px 10px;
+    background-color: var(--secondary-color);
+    opacity: 0.5;
+    font-weight: bold;
+    color: #038483;
+}
+
+.about-bold {
+    font-weight: bold;
+}
+
+.description{
+    color: var(--font-color);
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.company {
+    line-height: 20px;
+    margin-bottom: 50px;
+}
+
+.icon-circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: lightgray;
+    margin-bottom: 15px;
+    opacity: 0.7;
+}
+
 </style>
